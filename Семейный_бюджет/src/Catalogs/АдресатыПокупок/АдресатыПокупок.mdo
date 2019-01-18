@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fab1b4b9-9639-47f3-a34e-83f5539ffb9e">
+  <producedTypes>
+    <objectType typeId="7ccdcd8a-e5b2-4630-8104-575a2925c7cd" valueTypeId="9b6a1261-2ab0-4048-85b4-06a181bbefe0"/>
+    <refType typeId="8f047e0d-8429-42e7-8208-66b6c7af43e7" valueTypeId="966655c3-1ce1-4a81-800e-406cd1983d4d"/>
+    <selectionType typeId="df95c29b-aa7e-4567-988a-630a0abae4d2" valueTypeId="b2d90c5b-2751-473d-ae54-f1a2fd1ad007"/>
+    <listType typeId="440b6e89-c4b2-4fc0-ad73-c3ca5d7008b7" valueTypeId="9d67971f-6e9c-490d-80b2-309fe31f1630"/>
+    <managerType typeId="179e5f68-d33e-4528-9089-fbd5446d16f4" valueTypeId="0c357b4a-438b-4143-a0bd-747b98088508"/>
+  </producedTypes>
+  <name>АдресатыПокупок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адресаты покупок</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АдресатыПокупок.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.АдресатыПокупок.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

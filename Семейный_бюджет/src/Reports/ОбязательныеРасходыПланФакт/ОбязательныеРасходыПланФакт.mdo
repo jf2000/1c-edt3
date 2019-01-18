@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b974d6a-75a7-4c1b-a459-c429a415a15c">
+  <producedTypes>
+    <objectType typeId="1af76068-0a7c-4270-9112-93560694f625" valueTypeId="0b446216-7f55-4be9-a205-5bcb2277ef94"/>
+    <managerType typeId="09a76d14-53c2-4cce-8702-f7eda8e0ed22" valueTypeId="62d32845-1cf9-4f9f-8bef-c7e05780125c"/>
+  </producedTypes>
+  <name>ОбязательныеРасходыПланФакт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обязательные расходы план факт</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОбязательныеРасходыПланФакт.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="3c03f369-55e1-4e14-a7e7-bb4bf6375a19">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

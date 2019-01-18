@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3dd8d47a-38cf-458b-9c33-611ca4e611b3">
+  <producedTypes>
+    <objectType typeId="4bb211ca-ac2d-44aa-96cd-73e52876a17e" valueTypeId="265e6a38-4710-4773-bd73-6feca6fc2650"/>
+    <refType typeId="c546c5f4-4e9b-4bfe-902e-461370663986" valueTypeId="3edfd85e-6674-4273-b08a-a682e8f6f9b2"/>
+    <selectionType typeId="e3169d96-ec82-4b1f-a68e-b3f39ce86330" valueTypeId="d4ea26bd-7361-4dcd-9759-f46d42d0d339"/>
+    <listType typeId="7794911a-0985-4145-bf80-bcfe50dcc7ee" valueTypeId="3c73b714-93ab-4dd5-922b-159ac1746bcb"/>
+    <managerType typeId="b29795a5-3516-4c60-ba8a-0d44e6f0660d" valueTypeId="230c3573-0594-4bde-b0ed-346f902ccafd"/>
+  </producedTypes>
+  <name>ПриходДенегФактический</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приход денег фактический</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПриходДенегФактический.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecords>AccumulationRegister.ДвижениеДенегФакт</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="a1892b65-e941-469f-b450-39b91e6cb5bd">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Периоды</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ce4048da-b972-4fc7-b8f4-af1348b6f634">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ИсточникиДенег</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4a0950fa-9f58-431d-bc43-e19eddead610">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

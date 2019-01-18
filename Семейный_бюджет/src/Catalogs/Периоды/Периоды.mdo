@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4dd7664f-c699-4039-9a4c-ec531318c60d">
+  <producedTypes>
+    <objectType typeId="c9e2af41-35a9-4d03-9595-58ac9754a477" valueTypeId="70fe7dd1-aca0-48aa-ab58-c502d2c8be8d"/>
+    <refType typeId="47807e7e-11b8-43e3-8744-cea44840bfe8" valueTypeId="9ca34f98-d419-4626-b1c5-97778f85abbe"/>
+    <selectionType typeId="f70e1bdf-10d0-4654-a21b-d67c6ec34a75" valueTypeId="8910f8a6-da25-4f84-b429-af8ac03142b1"/>
+    <listType typeId="8b8c2860-b766-4772-9066-de9f1a45628e" valueTypeId="373026e4-753b-4321-b598-c049aa7104d5"/>
+    <managerType typeId="f5b6b7d9-471f-426a-9857-203052246eb6" valueTypeId="807a062f-1ad2-4aeb-bbc3-4816c9586021"/>
+  </producedTypes>
+  <name>Периоды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периоды</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Периоды.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Периоды.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

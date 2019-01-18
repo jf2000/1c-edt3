@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2a2ad0e-1e94-476a-8b3d-e158b6d9b0d6">
+  <producedTypes>
+    <objectType typeId="3c528638-b743-4150-ac74-a4229b4ac0c3" valueTypeId="22d69007-8363-46a4-bca8-64985eda54c0"/>
+    <managerType typeId="1b7ed887-ed8a-4a0b-a07d-988d017e8c0d" valueTypeId="56c873aa-712d-4e12-8ac0-bcc0c035196d"/>
+  </producedTypes>
+  <name>ВсеРасходыПланФакт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Все расходы план факт</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВсеРасходыПланФакт.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="8aea954e-1fbd-4578-9f96-44fc7a5a3f8d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

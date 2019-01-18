@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad041ff7-4306-4b6e-a470-d645d0a557f0">
+  <producedTypes>
+    <objectType typeId="6f7702d5-391e-4d18-a2d9-33ad292a94cd" valueTypeId="bda1beae-eaa1-4a16-844a-b58fc078cd5e"/>
+    <refType typeId="07fca652-bf0c-476f-a048-7e303a8675ba" valueTypeId="f8709d39-dcf3-473a-8e65-24effede5556"/>
+    <selectionType typeId="bcaeb458-3f5f-4e61-9074-ce8d06b7cbd0" valueTypeId="d1a1c50a-bdfa-45b1-bdf6-0f79362d5037"/>
+    <listType typeId="39bdf4b5-82ed-440a-bbea-386985200bee" valueTypeId="528cb479-c3e6-497b-aec4-3fc4ab7ef271"/>
+    <managerType typeId="b8a4aaf5-b026-44fe-8827-e54d8eb486b7" valueTypeId="744ec607-16ce-44bc-9709-0422cf63aa18"/>
+  </producedTypes>
+  <name>РасходДенегФактический</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расход денег фактический</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РасходДенегФактический.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.РасходДенегПлановый</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecords>AccumulationRegister.ОбязательныеРасходыПланФакт</registerRecords>
+  <registerRecords>AccumulationRegister.ДвижениеДенегФакт</registerRecords>
+  <registerRecords>AccumulationRegister.ВсеРасходыПланФакт</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="19391ef1-0035-461a-b966-cbe964d45c73">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Периоды</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bcdadcf8-049c-4d6c-a29c-510bd2c08487">
+    <name>Адресат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адресат</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.АдресатыПокупок</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7609f64d-d614-455a-9bdb-29230dc80dbb">
+    <name>ТемаПокупки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема покупки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ТемыПокупок</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab44c5ba-e22e-4a6d-8620-a51ae17e8449">
+    <name>ДополнительнаяАналитика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная аналитика</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ДополнительныеАналитики</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e9b6715f-a533-4a27-acf8-4d60fdc884ba">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="11ee91cd-6bc2-48d6-bf79-58ccb35242b6">
+    <name>ОбязательныйЕжемесячныйРасход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательный ежемесячный расход</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b1029b34-d8c5-4894-aebb-7daf6cf0fd4a">
+    <name>ЗаБудущийМесяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>За будущий месяц</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7c62b86d-d233-4fb9-b44f-135514a5dc08">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

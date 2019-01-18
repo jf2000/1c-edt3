@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="229d24f0-4c90-4c7d-bb48-40095ae6cadc">
+  <producedTypes>
+    <objectType typeId="4f378689-6885-4d36-ba6d-06841751da30" valueTypeId="5e3ee7ab-4cfd-4a91-b815-bdefe9c3cd05"/>
+    <managerType typeId="27f7e737-419c-420b-a3bd-0d566118f4fc" valueTypeId="6fddf6ac-7d5d-40d0-bbdd-05af7027e552"/>
+  </producedTypes>
+  <name>ПерепровестиРасходыДенегПлановые</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перепровести расходы денег плановые</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПерепровестиРасходыДенегПлановые.Form.Форма</defaultForm>
+  <forms uuid="ea5f4771-6bc0-4701-be84-c3c869282ca4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

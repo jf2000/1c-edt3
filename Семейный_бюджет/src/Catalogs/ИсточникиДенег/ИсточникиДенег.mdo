@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3676c58-1b6a-4d4f-a6bb-da2b7e12723e">
+  <producedTypes>
+    <objectType typeId="d3eb95e7-94a6-474e-bee5-873cc66e5016" valueTypeId="77e75ca2-849c-42d2-a86f-32289b468c83"/>
+    <refType typeId="52a11730-ba63-45b9-a576-ef237f39bf83" valueTypeId="59c6e552-a11f-4f8e-b259-1346d527b29c"/>
+    <selectionType typeId="d8c5e88e-5abf-451d-8a5c-02374813cf86" valueTypeId="644c2f80-5c65-447a-b56a-c4273d1dba63"/>
+    <listType typeId="855c002a-ba5d-41df-b334-39e7c29e9d23" valueTypeId="96e7fa1c-e994-44eb-8d35-eab8f09ba981"/>
+    <managerType typeId="83295c78-a92d-49f3-b3d9-b5dd5999b948" valueTypeId="23b5d533-30bf-4f3a-a01d-e0bf799dac7f"/>
+  </producedTypes>
+  <name>ИсточникиДенег</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники денег</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИсточникиДенег.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИсточникиДенег.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

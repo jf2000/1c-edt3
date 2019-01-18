@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84c282e3-abe5-4b9f-83bc-c8efb8b180cc">
+  <name>План</name>
+  <synonym>
+    <key>ru</key>
+    <value>План</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.РасходДенегПлановый</content>
+  <content>Document.ПриходДенегПлановый</content>
+</mdclass:Subsystem>

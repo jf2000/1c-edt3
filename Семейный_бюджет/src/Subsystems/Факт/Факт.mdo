@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c60a3a5-ffa4-4909-9c4e-1e44c0984940">
+  <name>Факт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Факт</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.РасходДенегФактический</content>
+  <content>Document.ПриходДенегФактический</content>
+</mdclass:Subsystem>

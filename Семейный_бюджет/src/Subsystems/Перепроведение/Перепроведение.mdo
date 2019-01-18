@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ecb9e21-4fce-4bd6-b51e-077a1efe160a">
+  <name>Перепроведение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перепроведение</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ПерепровестиРасходыДенегПлановые</content>
+  <content>DataProcessor.ПерепровестиРасходыДенегФактические</content>
+</mdclass:Subsystem>

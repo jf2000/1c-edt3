@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1c5cfe2-03e6-4973-8798-349c3e3f00ef">
+  <name>РасходПланФакт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расход план - факт</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.РасходДенегПлановый</content>
+  <content>Document.РасходДенегФактический</content>
+  <content>Report.ДвижениеДенегФактСРегистраторами</content>
+  <content>Report.ДвижениеДенегПлан</content>
+  <content>AccumulationRegister.ОбязательныеРасходыПланФакт</content>
+  <content>Report.ОбязательныеРасходыПланФакт</content>
+  <content>Report.ДвижениеДенегФакт</content>
+  <content>Report.ВсеРасходыПланФакт</content>
+</mdclass:Subsystem>

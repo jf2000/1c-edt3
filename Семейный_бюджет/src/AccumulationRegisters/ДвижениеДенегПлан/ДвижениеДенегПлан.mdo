@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01d3af9a-6da7-4f74-8d69-db5b74df630e">
+  <producedTypes>
+    <selectionType typeId="b7ba3f47-2071-4ef1-bc64-4285646d201b" valueTypeId="df57d4cb-1504-429a-ac6b-1552556ca4ec"/>
+    <listType typeId="93ad2491-f63f-4fbb-b1e6-5524fbf76bb1" valueTypeId="1c54a56d-7df5-439a-819a-fd5e5009e87c"/>
+    <managerType typeId="edf1c669-77c1-435b-85ed-6a563605d2f4" valueTypeId="dedc0f8d-d608-4868-8442-b0750d86655e"/>
+    <recordSetType typeId="4e9597f4-98c4-4d68-a82d-868ba5ddf028" valueTypeId="d395985d-e194-4a54-9a48-c0b70864e2c1"/>
+    <recordKeyType typeId="32de0be3-8f33-4f8b-b0e0-540998f05a05" valueTypeId="34c1a877-1014-49dc-9260-471ffd1712c3"/>
+    <recordType typeId="3bfce4d6-30c2-4fbd-ad57-e0a38818daa9" valueTypeId="2b393ae8-3f9d-4275-8c8c-f4123cfcb912"/>
+  </producedTypes>
+  <name>ДвижениеДенегПлан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движение денег план</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="e5a8a84d-62d8-4949-952c-eb4c0cb1b779">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="4322ef79-1a88-4c3c-ba28-c5003783996b">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ИсточникиДенег</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="936c1c5b-70a0-4f30-9427-87cbf1df3373">
+    <name>Адресат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адресат</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.АдресатыПокупок</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="0a4b45db-840a-45e6-9960-020404a931b2">
+    <name>ТемаПокупки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема покупки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ТемыПокупок</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="1d962e73-cb85-4198-ac90-1de69d84fced">
+    <name>ДополнительнаяАналитика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная аналитика</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ДополнительныеАналитики</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

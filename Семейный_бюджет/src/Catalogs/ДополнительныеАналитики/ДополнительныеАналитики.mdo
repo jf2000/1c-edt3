@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="478651dd-29c9-4db2-ae25-6848bcba5118">
+  <producedTypes>
+    <objectType typeId="d05393b2-3906-45c6-96e6-f8088716ab0a" valueTypeId="67d9d6fa-a2cb-48c8-8423-005d670ca1c3"/>
+    <refType typeId="b6c3df47-59f2-405e-9516-fa8224c54c47" valueTypeId="ffdebf32-9a82-433e-9fd7-a93144afa98b"/>
+    <selectionType typeId="641ac593-d5e8-4c6c-a4c9-bf2f51982628" valueTypeId="4f2aae94-4dd2-4d79-8774-1a8fec467208"/>
+    <listType typeId="1457748d-f7fb-4f7f-8829-71c7c17a4e57" valueTypeId="8efe3528-6230-413f-a960-e2d8b0e968d1"/>
+    <managerType typeId="e4754ef5-8d66-4621-85c7-6fd76024dbfd" valueTypeId="6adfef56-d115-4b1d-b0f3-69458dfb68bc"/>
+  </producedTypes>
+  <name>ДополнительныеАналитики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные аналитики</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДополнительныеАналитики.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДополнительныеАналитики.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

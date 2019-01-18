@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68698371-2a5b-4726-a3a3-41549a4f9f91">
+  <producedTypes>
+    <selectionType typeId="9546b691-3cb5-4f82-b9e2-48e5413c9089" valueTypeId="7ad00b4f-749f-48a0-a2a2-46c3965294b9"/>
+    <listType typeId="6ee68c8b-3dc1-475b-aa4b-cdb5c569cc34" valueTypeId="94f6c1fe-2923-4d04-8dae-4ce389d5febc"/>
+    <managerType typeId="1fde1f0f-9923-48a7-a3f5-c4d8448be084" valueTypeId="1cd8a81c-b1da-4b65-b624-9396bff2e20d"/>
+    <recordSetType typeId="3a515bdb-ecef-4e28-ad0f-fa2257ccbe80" valueTypeId="7696159e-6c75-4184-88b2-7f0fe0f16cca"/>
+    <recordKeyType typeId="d6931a4b-cfe5-4876-a2a5-7d67a57ecce8" valueTypeId="bde94466-1f61-4753-9c38-da72ce4af066"/>
+    <recordType typeId="bf0854a2-ce43-4492-9576-e31fbbf9a84e" valueTypeId="7b88a352-d197-4ad8-aed9-e7a57ecf2679"/>
+  </producedTypes>
+  <name>ВсеРасходыПланФакт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Все расходы план факт</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="30ddfd81-9d8d-4a9b-987f-04eecca4c8f7">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="079565d6-d2df-42fb-bcbd-e0f43f2a8481">
+    <name>ПериодБюждета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период бюждета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Периоды</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="f8bdf1d8-58ff-4f56-8043-5833b74f3244">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ИсточникиДенег</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="a564c173-a100-404f-b6b1-d94863faf078">
+    <name>Адресат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адресат</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.АдресатыПокупок</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="91039fc6-8ded-4df7-bcd7-124fa0e345e8">
+    <name>ТемаПокупки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема покупки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ТемыПокупок</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="58877181-9ead-4d85-848b-1c931940c09a">
+    <name>ДополнительнаяАналитика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная аналитика</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ДополнительныеАналитики</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

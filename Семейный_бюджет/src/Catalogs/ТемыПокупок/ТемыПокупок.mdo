@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2806c2c-8074-45d6-aafc-e20b4a7057d8">
+  <producedTypes>
+    <objectType typeId="e0ff7d53-2263-4d2d-b616-08065c70f389" valueTypeId="d2898dd6-5356-4002-a84b-7de145b2bd37"/>
+    <refType typeId="e9ab62c9-9517-49b0-bb47-fdfa421d721f" valueTypeId="6697dcbd-08e6-45a6-9636-0736b2e272fc"/>
+    <selectionType typeId="724d51b3-539a-48e0-8547-95dae9db4f0d" valueTypeId="6b7ccb32-081b-43cd-ae78-f03a9fb56058"/>
+    <listType typeId="91cca738-c95f-44e2-b936-70762565a594" valueTypeId="0d6f311a-5274-4343-9ecb-5fd4463f3be1"/>
+    <managerType typeId="023337af-5bea-4739-b769-dd94dc8ec3df" valueTypeId="3dbcaf83-4ce6-4131-b913-b0b3a478d5ed"/>
+  </producedTypes>
+  <name>ТемыПокупок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Темы покупок</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТемыПокупок.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТемыПокупок.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
