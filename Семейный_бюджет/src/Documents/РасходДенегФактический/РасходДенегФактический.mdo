@@ -175,4 +175,19 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="039bf229-7309-42cd-b3e4-3a78592471c4">
+    <name>РеквизитИзВторогоХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит из второго хранилища</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Document>
