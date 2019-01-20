@@ -190,4 +190,19 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="cf10c9a5-f985-498e-a7b8-a6ae668c9b9a">
+    <name>РеквизитТретий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит третий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Document>
